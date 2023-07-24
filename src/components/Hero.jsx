@@ -123,7 +123,7 @@ const Hero = () => {
              }
 
              whileInView={ ()=> {if(screenWidth<=768)
-                return ({left: "2rem"})
+                return ({left: "1rem"})
            else if(screenWidth>768 && screenWidth<=1300)    
            return({right:"27rem"} )
            else
@@ -156,7 +156,7 @@ const Hero = () => {
             // whileInView={ mobile? {left:"2rem"} :  {right:"22rem"}}
 
             whileInView={ ()=> {if(screenWidth<=768)
-                return ({left: "6rem"})
+                return ({left: "5rem"})
            else if(screenWidth>768 && screenWidth<=1300)    
            return({right:"33rem"} )
            else
@@ -171,7 +171,7 @@ const Hero = () => {
             {/* calories section */}
 
         <motion.div 
-        initial={ mobile? {left:"5rem"} : {right:"35rem"}}
+        initial={ mobile? {left:"4rem"} : {right:"35rem"}}
         whileInView={ mobile? {left:"2rem"} :  {right:"30rem"}}
         transition={transition}
         
