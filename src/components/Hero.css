@@ -308,19 +308,19 @@
         justify-content: center;
     }
     .heart-rate{
-        left: 1rem;
+        left: 0;
         top: 0;
-        transform: scale(0.9);
+        transform: scale(0.75);
     }
-    .calories{
+    .right-h .calories{
         position: relative;
-        left: 2rem;
+        left: -1rem;
         top:0rem;
-        transform: scale(0.55);
+        transform: scale(0.50);
     }
     .right-h .hero-image{
         position: relative;
-        left: 5rem;
+        left: 8rem;
         top:0;
         width: 15rem;
         align-self: safe center;
@@ -329,7 +329,7 @@
     }
     .hero-image-back{
         width: 10rem;
-        left: 5rem;
+        left: 2rem;
         top: 0;
         z-index: -9999999;
 
