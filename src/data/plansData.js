@@ -1,4 +1,5 @@
-export const plansData = [
+export default 
+[
   {
     icon: (
       <svg
@@ -11,10 +12,10 @@ export const plansData = [
       </svg>
     ),
     name: "BASIC PLAN",
-    price: "25",
+    price: "₹ 1999",
     features: [
       "2 hours of excercises",
-      "Free consultaion to coaches",
+      "Free consultaion of trained coaches",
       "Access to The Community",
     ],
   },
@@ -30,11 +31,12 @@ export const plansData = [
       </svg>
     ),
     name: "PREMIUM PLAN",
-    price: "30",
+    price: "₹ 2499",
     features: [
-      "5 hour of excercises",
-      "Free consultaion of Coaches",
-      "Accessto minibar",
+      "5 hours of excercises",
+      "Free consultaion of certified trainers",
+      "Access to a minibar"
+
     ],
   },
   {
@@ -49,10 +51,10 @@ export const plansData = [
       </svg>
     ),
     name: "PRO PLAN",
-    price: "45",
+    price: "₹ 3999",
     features: [
       "8 hours of excercises",
-      "Consultation of Private Coach",
+      "Consultation of a Cerified Private Coach",
       "Free Fitness Merchandises",
     ],
   },
